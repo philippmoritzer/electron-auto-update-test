@@ -1,1 +1,8 @@
 <router-outlet></router-outlet>
+<div id="notification" class="hidden">
+  <p id="message"></p>
+  <button id="close-button" onClick="closeNotification()">Close</button>
+  <button id="restart-button" (click)="restartApp()" class="hidden">
+    Restart
+  </button>
+</div>
